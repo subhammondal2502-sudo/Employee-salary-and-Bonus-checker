@@ -14,3 +14,5 @@ elif rating<1 or rating>5 :
 else:
     if rating==5:
         if experience>=5:
+            bonus_amount = basic_salary * (20/ 100)
+            final_salary = basic_salary + bonus_amount
