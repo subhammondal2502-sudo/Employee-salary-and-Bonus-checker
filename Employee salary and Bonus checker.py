@@ -11,3 +11,5 @@ elif experience<0 :
     print("Invalid experience ")
 elif rating<1 or rating>5 :
     print("Invalid rating")   
+else:
+    if rating==5:
