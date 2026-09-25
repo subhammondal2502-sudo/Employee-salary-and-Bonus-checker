@@ -7,5 +7,6 @@ print("Employee name : ", name)
 print("Basic salary : ", basic_salary)
 if basic_salary<0 :
     print("Invalid salary ")                            
-        
+elif experience<0 :
+    print("Invalid experience ")
     
