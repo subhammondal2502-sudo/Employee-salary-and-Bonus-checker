@@ -9,4 +9,5 @@ if basic_salary<0 :
     print("Invalid salary ")                            
 elif experience<0 :
     print("Invalid experience ")
-    
+elif rating<1 or rating>5 :
+    print("Invalid rating")   
