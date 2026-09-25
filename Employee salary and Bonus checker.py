@@ -5,6 +5,7 @@ experience=int(input("enter year of experience : "))
 rating=int(input("enter performance rating 1 to 5 : "))
 print("Employee name : ", name)
 print("Basic salary : ", basic_salary)
-                            
+if basic_salary<0 :
+    print("Invalid salary ")                            
         
     
