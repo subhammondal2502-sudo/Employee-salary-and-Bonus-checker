@@ -26,3 +26,4 @@ else:
             print("final salary :",final_salary)
             print("bonus percentage : ", 15,"%" )
     elif rating==4:
+        if experience>=5:
