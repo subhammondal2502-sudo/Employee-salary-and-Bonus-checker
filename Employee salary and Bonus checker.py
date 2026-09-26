@@ -21,4 +21,6 @@ else:
             print("bonus percentage : ", 20,"%" )
        else:
             bonus_amount = basic_salary * (15/ 100)
-            final_salary = basic_salary + bonus_amount
+            final_salary = basic_salary + bonus_amount 
+           
+print("bonus_amount : ",bonus_amount)
