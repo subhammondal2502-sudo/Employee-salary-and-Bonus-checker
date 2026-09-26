@@ -22,9 +22,8 @@ else:
        else:
             bonus_amount = basic_salary * (15/ 100)
             final_salary = basic_salary + bonus_amount 
-           
-print("bonus_amount : ",bonus_amount)
-print("final salary :",final_salary)
-print("bonus percentage : ", 15,"%" )
+            print("bonus_amount : ",bonus_amount)
+            print("final salary :",final_salary)
+            print("bonus percentage : ", 15,"%" )
 
   elif rating==4:
