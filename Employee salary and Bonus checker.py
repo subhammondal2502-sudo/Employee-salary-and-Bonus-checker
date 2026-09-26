@@ -17,3 +17,4 @@ else:
             bonus_amount = basic_salary * (20/ 100)
             final_salary = basic_salary + bonus_amount
             print("bonus_amount : ",bonus_amount)
+            print("final salary :",final_salary)
