@@ -37,3 +37,5 @@ else:
             print("bonus_amount : ",bonus_amount)
             print("final salary :",final_salary)
             print("bonus percentage : ", 10,"%" )
+    elif rating==3:
+            
