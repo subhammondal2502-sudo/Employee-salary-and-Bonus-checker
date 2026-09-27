@@ -39,4 +39,6 @@ else:
             print("bonus percentage : ", 10,"%" )
     elif rating==3:
         if experience>=5:
+            bonus_amount = basic_salary * (10/ 100)
+            final_salary = basic_salary + bonus_amount
             
