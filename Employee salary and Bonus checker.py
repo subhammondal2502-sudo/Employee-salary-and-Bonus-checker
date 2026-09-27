@@ -19,7 +19,7 @@ else:
             print("bonus_amount : ",bonus_amount)
             print("final salary :",final_salary)
             print("bonus percentage : ", 20,"%" )
-       else:
+        else:
             bonus_amount = basic_salary * (15/ 100)
             final_salary = basic_salary + bonus_amount 
             print("bonus_amount : ",bonus_amount)
@@ -27,10 +27,10 @@ else:
             print("bonus percentage : ", 15,"%" )
     elif rating==4:
         if experience>=5:
-                bonus_amount = basic_salary * (15/ 100)
-                final_salary = basic_salary + bonus_amount
-                print("bonus_amount : ",bonus_amount)
-                print("final salary :",final_salary)
+            bonus_amount = basic_salary * (15/ 100)
+            final_salary = basic_salary + bonus_amount
+            print("bonus_amount : ",bonus_amount)
+            print("final salary :",final_salary)
         else:
             bonus_amount = basic_salary * (10/ 100)
             final_salary = basic_salary + bonus_amount
@@ -38,4 +38,5 @@ else:
             print("final salary :",final_salary)
             print("bonus percentage : ", 10,"%" )
     elif rating==3:
+        if experience>=5:
             
