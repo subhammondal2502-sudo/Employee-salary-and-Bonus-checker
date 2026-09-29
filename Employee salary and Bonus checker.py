@@ -58,3 +58,6 @@ else:
              print("bonus percentage : no bonus" )
          else:
              final_salary = basic_salary 
+             print("bonus_amount : 0  ")
+             
+
